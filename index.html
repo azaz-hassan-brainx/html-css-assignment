@@ -13,42 +13,84 @@
   <title>Document</title>
 </head>
 <body>
-    <!-- Front Page with details -->
-    <div class="front">
-      <div class="container">
-        <div class="row front-layout">
-          <div class="col-9" style="background-color: aqua;">
-            <img src="images/logo-png.png" alt="">
-            <button class="top-button float-right">Insurance</button>
-            <button class="float-right top-button">How it Works</button>
-            <button class="float-right top-button">Resources</button>
+  <!-- Front Page with details -->
+  <div class="front">
+    <div class="container">
+      <div class="row front-layout">
+        <div class="col-9">
+          <div class="col-4 float-left"><img src="images/logo-png.png" alt=""></div>
+          <div class="float-right" style="padding-top: 50px;">
+            <div class="btn-group bg-transparent">
+              <button type="button" class="top-button">Insurance</button>
+              <button type="button" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+                <span class="caret"></span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Tablet</a>
+                <a class="dropdown-item" href="#">Smartphone</a>
+              </div>
+            </div>
+            <button class="top-button bg-transparent">How It Works</button>
+            <button class="top-button bg-transparent" style="color: #474646;">Resources</button>
           </div>
-          <div class="col-3 text-center pad-it-40" style="background-color: blue;">
-            
-            <button class="hunt-button" type="button"><span>Start Your Hunt</span></button>
-          </div>
+        </div>
+        <div class="col-3 text-center pad-it-40">
+          <button class="hunt-button" type="button"><span>Start Your Hunt</span></button>
+        </div>  
+      </div>
+      <div class="row">
+        <div class="col-6  container-for-front-page-info">
+          <div class="row"><span id="welcome-text">Welcome to Canada's best</span></div>
+          <hr width="5%" style="float: left;border: 1px solid;">
+          <div class="row" style="clear: both;">aslnas</div>
         </div>
       </div>
     </div>
-
-      <!-- Includes all partners tag -->
-      <div class="partners-loc"></div>
-    
-      <!-- Goals Pics -->
-      <div class="goals-loc"></div>
-    
-      <!-- Dedicated Insurance Market -->
-      <div class="dedicate-insurance"></div>
-    
-      <!-- MyHunter -->
-      <div class="my-hunter"></div>
-    
-      <!-- MyHunter -->
-      <div class="client-says"></div>
-    
-      <!-- Footer -->
-      <div class="footer"></div>
-    
   </div>
+  
+  <!-- Includes all partners tag -->
+  <div class="partners-loc">
+    <div class="container">
+      <div class="row partners-heading">
+        <div class="col text-center"><span class="partner-text">Our partners</span></div>
+      </div>
+      <hr width="10%" style="margin-bottom: 30px; border: 1px solid grey;">
+      <div class="row" style="margin-top: 30px; padding: 20px 0;">
+        <div class="container text-center">
+          <button class="partner-name bg-transparent">
+            <img src="images/dummy-logo-06/dummy-logo-06.png" alt="">
+          </button>
+          <button class="partner-name bg-transparent">
+            <img src="images/dummy-logo-05/dummy-logo-05.png" alt="">
+          </button>
+          <button id="active-name" class="partner-name bg-transparent">
+            <img src="images/dummy-logo01/dummy-logo01.png" alt="">
+          </button>
+          <button class="partner-name bg-transparent">
+            <img src="images/dummy-logo-02/dummy-logo-02.png" alt="">
+          </button>
+          <button class="partner-name bg-transparent">
+            <img src="images/dummy-logo-03/dummy-logo-03.png" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Goals Pics -->
+  <div class="goals-loc"></div>
+
+  <!-- Dedicated Insurance Market -->
+  <div class="dedicate-insurance"></div>
+
+  <!-- MyHunter -->
+  <div class="my-hunter"></div>
+
+  <!-- MyHunter -->
+  <div class="client-says"></div>
+
+  <!-- Footer -->
+  <div class="footer"></div>
+
 </body>
 </html>
