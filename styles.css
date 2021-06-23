@@ -171,13 +171,27 @@
   opacity: 1;
 }
 
+#ded-ins-center-head {
+  text-align: center; 
+  width: 100%;
+}
+
+#ded-ins-big-head {
+  text-align: center; 
+  width: 100%;
+  color: white;
+}
+
+#ded-ins-text {
+  color: gray;
+}
+
 .my-hunter {
   height: 644px;
   background: #E8DDDA 0% 0% no-repeat padding-box;
 }
 
-#my-hunter-small-heading {
-  text-align: left;
+.small-heading {
   font: normal normal 600 15px/25px Poppins;
   letter-spacing: 5.4px;
   color: #EB6874;
@@ -186,9 +200,8 @@
   font-family: sans-serif;
 }
 
-#my-hunter-big-heading {
+.big-heading {
   width: 90%;
-  text-align: left;
   font: normal normal bold 40px/60px Poppins;
   letter-spacing: 2px;
   color: #0C2242;
