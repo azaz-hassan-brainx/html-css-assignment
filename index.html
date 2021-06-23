@@ -21,11 +21,11 @@
           <div class="col-4 float-left"><img src="images/logo-png.png" alt=""></div>
           <div class="float-right" style="padding-top: 50px;">
             <div class="btn-group bg-transparent">
-              <button type="button" class="top-button">Insurance</button>
-              <button type="button" class="dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+              <button type="button" class="no-focus-border top-button bg-transparent">Insurance</button>
+              <button type="button" class="no-focus-border dropdown-toggle dropdown-toggle-split bg-transparent border-0" style="padding-top: 5px; padding-left: 0;" data-toggle="dropdown">
                 <span class="caret"></span>
               </button>
-              <div class="dropdown-menu">
+              <div class="dropdown-menu bg-transparent">
                 <a class="dropdown-item" href="#">Tablet</a>
                 <a class="dropdown-item" href="#">Smartphone</a>
               </div>
@@ -34,15 +34,25 @@
             <button class="top-button bg-transparent" style="color: #474646;">Resources</button>
           </div>
         </div>
-        <div class="col-3 text-center pad-it-40">
-          <button class="hunt-button" type="button"><span>Start Your Hunt</span></button>
+        <div class="col-3 pad-it-40">
+          <button class="hunt-button no-focus-border" type="button"><span>Start Your Hunt</span></button>
         </div>  
       </div>
       <div class="row">
         <div class="col-6  container-for-front-page-info">
           <div class="row"><span id="welcome-text">Welcome to Canada's best</span></div>
-          <hr width="5%" style="float: left;border: 1px solid;">
-          <div class="row" style="clear: both;">aslnas</div>
+          <hr width="7%" id="hr-under-welcome">
+          <div class="row" style="clear: both; padding-top: 30px;">
+            <h1 id="heading-text">Insurance Hunting Marketplace<span class="dot" style="margin-left: 10px;"></span> <span class="dot"></span></h1>
+          </div>
+          <div id="benefits-div" class="row">  
+            <p><img src="images/tick-inside-circle-icon.svg" alt=""><span class="benefits-text">Get Customized Quotes in 10 Mins</span></p><br>
+            <p><img src="images/tick-inside-circle-icon.svg" alt=""><span class="benefits-text">Maximize Discounts</span></p>  
+            <p><img src="images/tick-inside-circle-icon.svg" alt=""><span class="benefits-text">Buy With Confidence</span></p>  
+          </div>
+          <div class="row">
+            <button id="btn-get-your-hunter" class="hunt-button no-focus-border" type="button"><span>Get Your Own Hunter</span></button>
+          </div>
         </div>
       </div>
     </div>
@@ -74,6 +84,7 @@
           </button>
         </div>
       </div>
+      <hr style="margin-top: 20px; border: 0.01px solid white;">
     </div>
   </div>
 
@@ -90,7 +101,60 @@
   <div class="client-says"></div>
 
   <!-- Footer -->
-  <div class="footer"></div>
+  <div class="footer">
+    <div class="container">
+      <div class="row footer-info">
+        <div class="col-5 text-center">
+          
+          <div id="footer-logo">
+            <img src="images/logo-icon.png" height="79px" width="73px" alt="">
+            <span id="footer-logo-heading">My Hunter</span>
+            <span id="footer-logo-text">Hunting Best Insurance Rates</span>
+          </div>
+          <div id="footer-text">
+            <span"> We specialize in all kinds of Insurance coverage. 
+              Offering multiple insurance is great for you 
+              because when you bundle your policies together, you save!
+            </span>
+          </div>
+          <div style="margin-top: 15px;">
+            <img src="images/icons-group-footer.svg" alt="">
+          </div>
+        </div>
+        <div class="col-7">
+          <div class="row" style="padding-top: 80px;">
+            <div class="col-4" >
+              <h6 class="" style="margin-bottom: 0;">Our Process</h6>
+              <hr width="15%" style="position: absolute; padding-left: 0; padding-top: 0; color: grey; border: 0.1px solid gray;">
+              <div class="footer-links" style="width: 111px; clear: both; margin-top: 30px; font-family: sans-serif;">
+                How it works Our Advisors FAQ Our Insurance Glossary
+              </div>
+            </div>
+            <div class="col-4" >
+              <h6 style="margin-bottom: 0;">Our Insurance</h6>
+              <hr width="15%" style="position: absolute; padding-left: 0; padding-top: 0; color: grey; border: 0.1px solid gray;">
+              <div class="footer-links" style="width: 98px; clear: both; margin-top: 30px; font-family: sans-serif;">
+                Home Ins. Auto Ins. Business Ins. Condo Ins. Tenant Ins. Life Ins.
+              </div>
+            </div>
+            <div class="col-4" >
+              <h6 style="margin-bottom: 0;">Company</h6>
+              <hr width="15%" style="position: absolute; padding-left: 0; padding-top: 0; color: grey; border: 0.1px solid gray;">
+              <div class="footer-links" style="width: 105px; clear: both; margin-top: 30px; font-family: sans-serif;">
+                About Us Careers Blog Contact Us Privacy policy In the news
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr style="border: 0.1px solid #FFFFFF8C;opacity: 0.63; background-color: #FFFFFF8C;">
+      <div class="row">
+        <div id="copyright-pad" class="col text-center"><span id="rights-reserved">Copyright 2021 - All right Reserved</span></div>
+        
+        
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
