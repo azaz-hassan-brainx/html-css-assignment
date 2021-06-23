@@ -94,8 +94,8 @@
   width: 400px;
   font-weight: bold;
   letter-spacing: 2.25px;
-color: #0C2242;
-opacity: 1;
+  color: #0C2242;
+  opacity: 1;
 }
 
 #benefits-div {
@@ -106,7 +106,7 @@ opacity: 1;
 .benefits-text {
   padding-left: 10px;
   letter-spacing: 0.9px;
-  color: #474646;
+  color: gray;
   opacity: 1;
 }
 
@@ -176,6 +176,27 @@ opacity: 1;
   background: #E8DDDA 0% 0% no-repeat padding-box;
 }
 
+#my-hunter-small-heading {
+  text-align: left;
+  font: normal normal 600 15px/25px Poppins;
+  letter-spacing: 5.4px;
+  color: #EB6874;
+  text-transform: uppercase;
+  opacity: 1;
+  font-family: sans-serif;
+}
+
+#my-hunter-big-heading {
+  width: 90%;
+  text-align: left;
+  font: normal normal bold 40px/60px Poppins;
+  letter-spacing: 2px;
+  color: #0C2242;
+  opacity: 1;
+  font-family: sans-serif;
+
+}
+
 .client-says {
   height: 890px;
   background: #F1F1F1C4 0% 0% no-repeat padding-box;
@@ -228,11 +249,11 @@ h6 {
   box-sizing: border-box;
   width: 349px;
   height: 101px;
-  margin-left: 50px;
+  margin-left: 60px;
   text-align: center;
   font: normal normal 300 15px/25px Poppins;
   font-family: sans-serif;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
   color: #FFFFFF;
   opacity: 1;
   margin-top: 5px;
@@ -253,6 +274,6 @@ h6 {
 }
 
 #copyright-pad {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
