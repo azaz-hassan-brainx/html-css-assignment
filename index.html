@@ -77,9 +77,9 @@
       </div>
       <hr width="10%" style="margin-bottom: 30px; border: 1px solid grey;">
       <div class="row" style="margin-top: 30px; padding: 20px 0;">
-        <div style="position: relative; width: 100%; top: 70px" >
-          <img class="prev" src="images/previous.svg" alt="">
-          <img class="next" src="images/next-icon.svg" style="float: right;" alt="">
+        <div style="position: relative; width: 100%; top: 70px">
+          <img id="prev" class="prev" src="images/previous.svg" alt="">
+          <img id="next" src="images/next-icon.svg" style="float: right; background-color: black;" alt="" onclick="next()">
         
         </div>
         <div class="container text-center owl-carousel owl-theme">
@@ -111,6 +111,16 @@
   </div>
 
   <script>
+    $( document ).ready(function() {
+      
+      document.getElementById("next").onclick = function() {
+        console.log("hehehehehe");
+      }
+
+    });
+  </script>
+
+  <script>
     $('.owl-carousel').owlCarousel({
       touchDrag  : false,
       mouseDrag  : false,
@@ -132,12 +142,10 @@
       }
     })
 
-    var owl = $('.owl-carousel');
-    owl.owlCarousel();
-    $('.next').click(function() {
-      console.log("Hello");
-    owl.trigger('next.owl.carousel');
-    })
+    // $('.next').click(function() {
+    //   console.log("Hello");
+    // owl.trigger('next.owl.carousel');
+    // })
     // Go to the previous item
     $('.prev').click(function() {
         // With optional speed parameter
